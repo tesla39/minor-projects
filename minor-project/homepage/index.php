@@ -32,7 +32,7 @@ include('connection.php');
     <i class="fa-sharp fa-solid fa-cart-shopping" style="color:white;"></i>Cart
 </li>
 
-    <li><a href="../validation/log-sign.html"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Login</a></li>
+    <li><a href="../login/log-sign.html"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Login</a></li>
   </ul>
   </ul>
 </div>
@@ -175,8 +175,9 @@ $sql="SELECT pimage from product";
       }
     }
 ?>
+
    <!-- product slide 1-->
-   <div id="product-parent">
+   <div class="product-parent">
   <section class="product"> 
    <!--<ul id="data-list">--> 
     <h2 class="product-category">Best Selling </h2>
@@ -215,10 +216,10 @@ $sql="SELECT pimage from product";
 
 
 <!--product slide 2-->
-<div id="product-parent">
+<div class="product-parent" >
   <section class="product"> 
    <!--<ul id="data-list">--> 
-    <h2 class="product-category">Best Selling </h2>
+    <h2 class="product-category">Best Offers </h2>
     <button class="pre-btn"><img src="../product/arrow.png" alt=""></button>
     <button class="nxt-btn"><img src="../product/arrow.png" alt=""></button>
     <div class="product-container">
@@ -253,10 +254,10 @@ $sql="SELECT pimage from product";
 </section>
 
 <!--product slide 3-->
-<div id="product-parent">
+<div class="product-parent">
   <section class="product"> 
    <!--<ul id="data-list">--> 
-    <h2 class="product-category">Best Selling </h2>
+    <h2 class="product-category">New Arrivals</h2>
     <button class="pre-btn"><img src="../product/arrow.png" alt=""></button>
     <button class="nxt-btn"><img src="../product/arrow.png" alt=""></button>
     <div class="product-container">
