@@ -1,0 +1,98 @@
+.dealers-list {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: "Rubik", sans-serif;
+}
+
+.dealers-list h2 {
+  font-size: 30px;
+  border-left: 4px solid #023047;
+  padding-left: 20px;
+}
+
+.dealers-list .dealers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.dealers-list .dealers img {
+  width: 60px;
+}
+
+.dealers-list .dealer {
+  box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.2);
+  padding: 24px;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 400ms ease;
+}
+
+.dealers-list .dealer:hover {
+  transform: scale(1.03);
+}
+
+.dealers-list .open-positions {
+  position: absolute;
+  top: 40px;
+  right: 24px;
+  color: #e63946;
+}
+
+.dealers-list .dealer-Name {
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 0;
+  color: #023047;
+}
+
+.dealers-list .details {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.8;
+  flex: 1;
+}
+
+.dealers-list .details-btn {
+  text-decoration: none;
+  border: 1px solid #023047;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+  transition: all 400ms ease;
+}
+
+.dealers-list .details-btn:hover {
+  background: #023047;
+  color: #fff;
+}
+
+.dealers-list .dealer-search {
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 940px) {
+  .dealers-list .dealers {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .dealers-list .dealers {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

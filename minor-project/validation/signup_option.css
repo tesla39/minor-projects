@@ -1,0 +1,83 @@
+body {
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    border: 10px solid #0a0b0a;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    background-image: url('https://th.bing.com/th/id/R.7197c31e77761be6f453cfcb7710fd2d?rik=4gYtJ29NqXMKWA&riu=http%3a%2f%2fwww.imagesjunction.com%2fimages%2fimg%2fDesktop_HD_Wallpapers.jpg&ehk=cc55sKFYgtBrKRcEMzmjCEmA9sIIFF5WwhwBCsd9VEY%3d&risl=&pid=ImgRaw&r=0'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #040404;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333333;
+    font-size: 2em;
+}
+
+.register-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    background-color: #27ca48;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+.register-links a:hover {
+    background-color: #0c621e;
+    cursor: pointer;
+}
+h1:hover {
+    color: #685f5f;
+    font-size: 2.5em;
+}
+
+h2:hover {
+    color: #c0b1b1;
+    font-size: 2em;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .register-links a {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .register-links a {
+        width: 30%;
+    }
+}
+
