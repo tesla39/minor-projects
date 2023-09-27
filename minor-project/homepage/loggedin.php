@@ -35,62 +35,34 @@ $username = $_SESSION['username'];
           <li style="color: white; font-size: 17px; font-family: Arial, sans-serif;">Hi,<?php echo $username;?></li>
         </ul>
 </div>
-  <!--navbar 2-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="second-nav">
-    <div class="container-fluid">
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-        
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Suppliers
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Vendors
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Farms
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Offers
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="dynamic content/">notice</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../farmer/">Farmers</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></
+      span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../dealer/">Dealer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../vendors/">Vendors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../admin/sendemail/">feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="notice4client.php">notice for client</a>
+        </li>
+      </ul>
     </div>
-    </div>
-  </nav>
+  </div>
+</nav>
+
+
   <?php
 $sql="SELECT Image from banner";
  if($row=mysqli_query($conn,$sql))
@@ -201,8 +173,9 @@ $sql="SELECT pimage from product";
       }
     }
 ?>
-  <!-- product slide 1-->
-  <div id="product-parent">
+
+   <!-- product slide 1-->
+   <div class="product-parent">
   <section class="product"> 
    <!--<ul id="data-list">--> 
     <h2 class="product-category">Best Selling </h2>
@@ -212,6 +185,9 @@ $sql="SELECT pimage from product";
    
     <?php 
         for ($i = 0; $i < 7; $i++) {
+          $image[$i];
+          $name[$i];
+          $netprice[$i];
 ?>
     
 <li>
@@ -238,15 +214,19 @@ $sql="SELECT pimage from product";
 
 
 <!--product slide 2-->
+<div class="product-parent" >
   <section class="product"> 
    <!--<ul id="data-list">--> 
-    <h2 class="product-category">Best Selling </h2>
+    <h2 class="product-category">Best Offers </h2>
     <button class="pre-btn"><img src="../product/arrow.png" alt=""></button>
     <button class="nxt-btn"><img src="../product/arrow.png" alt=""></button>
     <div class="product-container">
    
     <?php 
         for ($i = 7; $i < 14; $i++) {
+          $image[$i];
+          $name[$i];
+          $netprice[$i];
 ?>
     
 <li>
@@ -272,15 +252,19 @@ $sql="SELECT pimage from product";
 </section>
 
 <!--product slide 3-->
+<div class="product-parent">
   <section class="product"> 
    <!--<ul id="data-list">--> 
-    <h2 class="product-category">Best Selling </h2>
+    <h2 class="product-category">New Arrivals</h2>
     <button class="pre-btn"><img src="../product/arrow.png" alt=""></button>
     <button class="nxt-btn"><img src="../product/arrow.png" alt=""></button>
     <div class="product-container">
    
     <?php 
-        for ($i = 14; $i < 21; $i++) {
+        for ($i = 14; $i <21; $i++) {
+          $image[$i];
+          $name[$i];
+          $netprice[$i];
 ?>
     
 <li>
@@ -304,6 +288,7 @@ $sql="SELECT pimage from product";
     </div>
   </div>
 </section>
+</div>
   
 <!--footer code-->
 <footer>
@@ -371,8 +356,7 @@ $sql="SELECT pimage from product";
   </footer>
   <script src="SEARCH.js"></script>
 <script src="product_slide.js"></script>
- 
- </script>
+
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

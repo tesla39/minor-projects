@@ -57,7 +57,7 @@ const dealers = JSON.parse('<?php echo json_encode($dealers); ?>');
 
 const dealersHeading = document.querySelector(".dealers-list h2");
 const dealersContainer = document.querySelector(".dealers-list .dealers");
-const dealerSearch = document.querySelector(".dealers-list .dealers-search");
+const dealerSearch = document.querySelector(".dealers-list .dealer-search");
 
 let searchTerm = "";
 

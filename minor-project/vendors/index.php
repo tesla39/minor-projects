@@ -57,8 +57,8 @@ const vendors = JSON.parse('<?php echo json_encode($vendors); ?>');
 
 const vendorsHeading = document.querySelector(".vendors-list h2");
 const vendorsContainer = document.querySelector(".vendors-list .vendors");
-const vendorSearch = document.querySelector(".vendors-list .vendors-search");
 
+const vendorSearch = document.querySelector(".vendors-list .vendor-search");
 let searchTerm = "";
 
 if (vendors.length == 1) {

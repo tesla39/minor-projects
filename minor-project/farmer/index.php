@@ -57,7 +57,7 @@ const farmers = JSON.parse('<?php echo json_encode($farmers); ?>');
 
 const farmersHeading = document.querySelector(".farmers-list h2");
 const farmersContainer = document.querySelector(".farmers-list .farmers");
-const farmerSearch = document.querySelector(".farmers-list .farmers-search");
+const farmerSearch = document.querySelector(".farmers-list .farmer-search");
 
 let searchTerm = "";
 

@@ -9,14 +9,30 @@ include('connection.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="topnav.css">
   <title>HOMEPAGE</title>
+  <!--css link -->
   <link rel="stylesheet" href="footer.css">
+
+  <!--bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <!---google font api link --->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!--font awesome stylesheet-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
- <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<!---unicon icon sheet-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+ 
+ <!---google font host---->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <!---google font api link --->
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+ 
+ <!--product slide -->
   <link rel="stylesheet" href="productslide.css">
+
 </head>
 <body>
 
@@ -42,7 +58,8 @@ include('connection.php');
   <div class="container-fluid">
     <a class="navbar-brand" href="../farmer/">Farmers</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></
+      span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
