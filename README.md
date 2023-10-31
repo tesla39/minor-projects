@@ -6,10 +6,9 @@
    <h3> 4. Cart   </h3>
    <h3> 5. Purchase feature can be added.  </h3>
    <h3> 6. Easy to upgrade & maintain  </h3>
-   
+   </br></br>
 <h1> Sigining into admin dashboard <h1> 
  <h3>Sign in into Admin panel from [sign in page] directly.</h3>
-
 <h3>Username: mahesh
 Password: tesla123 </h3>
 
