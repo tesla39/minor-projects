@@ -11,5 +11,24 @@
  <h5>Sign in into Admin panel from [sign in page] directly.</h5>
 <h5>Username: mahesh <BR>
 Password: tesla123 </h5>
+Usertype: Admin <BR>
+</br></br>
+ <h5>Sign in into Homepage from [sign in page] directly.</h5>
+   Sign in as Farmer
+<h5>Username:  Bikram <BR>
+Password: farmer1  </h5>
+Usertype: Farmer<BR>
+
+<h5>Username: mahesh <BR>
+Password: tesla123 </h5>
+Usertype: Admin <BR>
+
+<h5>Username: mahesh <BR>
+Password: tesla123 </h5>
+Usertype: Admin <BR>
+
+<h5>Username: mahesh <BR>
+Password: tesla123 </h5>
+Usertype: Admin <BR>
 
 <h5>Website link: https://greengrocers.000webhostapp.com/ </h5>
