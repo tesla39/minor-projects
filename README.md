@@ -7,36 +7,36 @@
    <h5> 5. Purchase feature can be added.  </h5>
    <h5> 6. Easy to upgrade & maintain  </h5>
    <h5>Website link: https://greengrocers.000webhostapp.com/ </h5>
-   </br></br>
+   </br>
    
-<h1> Sigining into admin dashboard <h1> 
+<h1> Sign in into admin dashboard <h1> 
  <h5>Sign in into Admin panel from [sign in page] directly.</h5>
 <h5>Username: mahesh <BR>
-Password: tesla123 </h5>
-Usertype: Admin <BR>
+Password: tesla123 
+Usertype: Admin</h5> <BR>
 </br></br>
     
-<h1> Sigining into Homepage <h1> 
+<h1> Sign in into Homepage <h1> 
 
-<h5>Sign in as Customer</h5>
+<h3>Sign in as Customer</h3>
 <h5>Username: Bharat <BR>
-Password: 1234 </h5>
-Usertype: Admin <BR>
+Password: 1234 
+Usertype: Admin </h5><BR>
 
-<h5>Sign in as Farmer</h5>
+<h3>Sign in as Farmer</h3>
 <h5>Username:  Bikram <BR>
-Password: farmer1  </h5>
-Usertype: Farm Owner<BR>
+Password: farmer1  
+Usertype: Farm Owner</h5><BR>
 
-<h5>Sign in as Dealer</h5>
+<h3>Sign in as Dealer</h3>
 <h5>Username: Dinesh <BR>
-Password: dealer1</h5>
-Usertype: Dealer <BR>
+Password: dealer1
+Usertype: Dealer</h5> <BR>
 
-<h5>Sign in as Vendor</h5>
+<h3>Sign in as Vendor</h3>
 <h5>Username: ram <BR>
-Password:vendor1 </h5>
-Usertype: Vendor <BR>
+Password:vendor1
+Usertype: Vendor  </h5><BR>
 
 
 
