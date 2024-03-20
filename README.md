@@ -21,7 +21,7 @@ Usertype: Admin</h5> <BR>
 <h3>Sign in as Customer</h3>
 <h5>Username: Bharat <BR>
 Password: 1234 <BR>
-Usertype: Admin </h5><BR>
+Usertype: Customer </h5><BR>
 
 <h3>Sign in as Farmer</h3>
 <h5>Username:  Bikram <BR>
